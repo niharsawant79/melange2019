@@ -961,6 +961,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #hotels {
   padding: 60px 0;
+  overflow: hidden;
 }
 
 #hotels .hotel {
@@ -1001,10 +1002,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 #hotels .stars {
   padding: 0 20px;
   margin-bottom: 5px;
+  font-size: 16px;
+  font-weight: bolder;
 }
 
 #hotels .stars i {
-  color: #ffc31d;
+  color: #152b79;
 }
 
 #hotels p {

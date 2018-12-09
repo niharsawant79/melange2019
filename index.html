@@ -7,7 +7,8 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
-
+  <!-- Firebase -->
+  <script src="https://www.gstatic.com/firebasejs/5.7.0/firebase.js"></script>
   <!-- Favicons -->
   <link href="img/favicon.png" rel="icon">
   <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
@@ -21,6 +22,7 @@
 
   <!-- Libraries CSS Files -->
   <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
   <link href="lib/animate/animate.min.css" rel="stylesheet">
   <link href="lib/venobox/venobox.css" rel="stylesheet">
   <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
@@ -582,70 +584,48 @@
     <!--==========================
       Hotels Section
     ============================-->
-    <!-- <section id="hotels" class="section-with-bg wow fadeInUp">
+    <section id="hotels" class="section-with-bg wow fadeInUp">
 
       <div class="container">
         <div class="section-header">
-          <h2>Hotels</h2>
-          <p>Her are some nearby hotels</p>
+          <h2>EVENTS</h2>
+          <p>Take a part stand a chance to win</p>
         </div>
+        
+        <div class="row" id="hotelid" style="overflow:hidden;">
 
-        <div class="row">
-
-          <div class="col-lg-4 col-md-6">
-            <div class="hotel">
-              <div class="hotel-img">
-                <img src="img/hotels/1.jpg" alt="Hotel 1" class="img-fluid">
+          <!-- WARNING: here code is coming from firebase please do not touch -->
+           <!-- <div class="owl-carousel" style="overflow:hidden;">  -->
+            <!-- <div  class="col-lg-4 col-md-6">
+              <div  class="hotel">
+                <div class="hotel-img">
+                  <img src="img/hotels/1.jpg" alt="Hotel 1" class="img-fluid">
+                </div>
+                <h3><a href="#">Hotel 1</a></h3>
+                <div class="stars">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                </div>
+                <p>0.4 Mile from the Venue</p>
               </div>
-              <h3><a href="#">Hotel 1</a></h3>
-              <div class="stars">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-              </div>
-              <p>0.4 Mile from the Venue</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6">
-            <div class="hotel">
-              <div class="hotel-img">
-                <img src="img/hotels/2.jpg" alt="Hotel 2" class="img-fluid">
-              </div>
-              <h3><a href="#">Hotel 2</a></h3>
-              <div class="stars">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star-half-full"></i>
-              </div>
-              <p>0.5 Mile from the Venue</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6">
-            <div class="hotel">
-              <div class="hotel-img">
-                <img src="img/hotels/3.jpg" alt="Hotel 3" class="img-fluid">
-              </div>
-              <h3><a href="#">Hotel 3</a></h3>
-              <div class="stars">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-              </div>
-              <p>0.6 Mile from the Venue</p>
-            </div>
-          </div>
+            </div> -->
+            
+ 
+          <!-- </div>  -->
+          
 
         </div>
       </div>
 
-    </section> -->
+    </section>
+
+    <!-- trial  -->
+    
+
+    <!-- trial end -->
 
     <!--==========================
       Gallery Section
@@ -1188,6 +1168,7 @@
 
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
+  <script src="js/app.js"></script>
 </body>
 
 </html>
